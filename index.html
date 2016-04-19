@@ -15,7 +15,7 @@
 </head>
 <body>
 <section data-role="section" class="section-section1">
-    <div class="contact-us"><a href="#">contact us!</a></div>
+    <div class="contact-us back-end"><a href="" onclick="return false">contact us!</a></div>
     <div class="section-text color--main">
         <span class="title--big">LOREM IPSUM</span>
         <span class="dev">ios&android app development</span>
@@ -205,7 +205,10 @@ By dropping a pin on a map of the world, or setting your preference to a specifi
 <div class="horizon-next"><img src="img/arrows-right.png"></div>
 
 <script>
-$('section').horizon({scrollDuration: 400});
+$('section').horizon({scrollDuration: 1500});
+$('.back-end').on('click', function () {
+    $(document).horizon('scrollTo', 12);
+});
 $('.back').on('click', function () {
     $(document).horizon('scrollTo', 0);
 });
