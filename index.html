@@ -227,6 +227,15 @@ $('.bxslider').bxSlider({
     nextText: '',
     prevText: ''
 });
+$(document).ready(function(){
+  $(window).on('load resize',function(){
+    var elem = $(this).height();
+    var result = (elem / 2);
+    console.log(result);
+    $(".making-text").css("top", "+="+result);
+    $(".talented-text").css("top", "+="+result);
+  });
+});
 </script>
 
 </body>
