@@ -259,7 +259,7 @@ section {
 .block-power {
     position: absolute;
     top: 0;
-    left: 0;
+    /*left: 0;*/
     right: 0;
     bottom: 0;
     margin: auto;
@@ -431,8 +431,14 @@ div.power-text--color {color: #8bffdf;}
     font-size: 70px;
     font-weight: 700;
     position: absolute;
-    top: 50%;
-    margin: -5% 0 0 55%;
+    top: 0;
+	  left: 0;
+    right: 0;
+    bottom: 0;
+	  margin: auto;
+    width: 100%;
+    height: 20%;
+    text-align: center;
 }
 
 .img-iphone {
@@ -440,7 +446,17 @@ div.power-text--color {color: #8bffdf;}
     vertical-align: top;
 }
 
-div.block-power--margin {margin-top: 7%;}
+div.block-power--margin {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 100%;
+  height: 73%;
+  text-align: center;
+}
 
 div.power-text--margin {margin-top: 0;}
 
@@ -529,8 +545,11 @@ div.section-text--display .dev {font-size: 40px;}
 
 .wrap-contact {
     position: absolute;
-    top: 5%;
-    margin: 0% 0 0 15%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: 3% 0 0 15%;
 }
 
 .contacts {
@@ -906,7 +925,7 @@ div.section-text--display .dev {font-size: 40px;}
     /*.block-power {margin-top: 25%;}*/
     .right-lamp {right: -24px;}
     /*.our-text {margin: -9% 0 0 8%;}*/
-    .block-take {margin: -6% 0 0 30%;}
+    /*.block-take {margin: -6% 0 0 30%;}*/
     div.section-text--display {margin-left: 35px;}
     .back {margin-top: 6%;}
     .clock {bottom: 29.3%; right: 44.6%;}
@@ -920,7 +939,7 @@ div.section-text--display .dev {font-size: 40px;}
     /*.block-power {margin-top: 25%;}*/
     .right-lamp {right: 135px;}
     /*.our-text {margin: -9% 0 0 17%;}*/
-    .block-take {margin: -6% 0 0 30%;}
+    /*.block-take {margin: -6% 0 0 30%;}*/
     .back {margin-top: 6%;}
     .clock {bottom: 29.7%; right: 45.6%;}
 }
@@ -933,7 +952,7 @@ div.section-text--display .dev {font-size: 40px;}
     /*.block-power {margin-top: 15%;}*/
     .right-lamp {right: 138px;}
     /*.our-text {margin: -9% 0 0 17%;}*/
-    .block-take {margin: -6% 0 0 50%;}
+    /*.block-take {margin: -6% 0 0 50%;}*/
     .back {margin-top: 6%;}
     .clock {bottom: 29.7%; right: 45.9%;}
 }
@@ -946,7 +965,7 @@ div.section-text--display .dev {font-size: 40px;}
     /*.block-power {margin-top: 20%;}*/
     .right-lamp {right: 135px;}
     /*.our-text {margin: -9% 0 0 17%;}*/
-    .block-take {margin: -6% 0 0 30%;}
+    /*.block-take {margin: -6% 0 0 30%;}*/
     .back {margin-top: 6%;}
     .clock {bottom: 31.7%; right: 45.9%;}
 }
@@ -959,7 +978,7 @@ div.section-text--display .dev {font-size: 40px;}
     /*.block-power {margin-top: 16%;}*/
     .right-lamp {right: 164px;}
     /*.our-text {margin: -9% 0 0 25%;}*/
-    .block-take {margin: -6% 0 0 50%;}
+    /*.block-take {margin: -6% 0 0 50%;}*/
     .back {margin-top: 6%;}
     /*.block-professional {margin: -3% 0 0 24%;}*/
     /*.focus-text {margin: -8% 0 0 22%;}*/
@@ -975,11 +994,11 @@ div.section-text--display .dev {font-size: 40px;}
     /*.block-power {margin-top: 16%;}*/
     .right-lamp {right: 236px;}
     /*.our-text {margin: -5% 0 0 30%;}*/
-    .block-take {margin: -3% 0 0 50%;}
+    /*.block-take {margin: -3% 0 0 50%;}*/
     .back {margin-top: 6%;}
     /*.block-professional {margin: -3% 0 0 27%;}*/
     .wrap-contact {margin: 5% 0 0 27%}
-    div.block-power--margin {margin-top: 11%;}
+    /*div.block-power--margin {margin-top: 11%;}*/
     .clock {bottom: 32.5%; right: 46.7%;}
 }
 

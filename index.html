@@ -113,7 +113,7 @@
     <div class="block-take">TAKE A LOOK AT<br/><span class="color--light-green">OUR PORTFOLIO</span></div>
 </section>
 <section data-role="section" class="section-section12">
-    <div class="block-power--margin block-power">
+    <div class="block-power block-power--margin">
       <ul class="bxslider">
       <li>
        <div class="img-iphone">
@@ -227,7 +227,14 @@ $('.bxslider').bxSlider({
     nextText: '',
     prevText: ''
 });
-
+$(document).ready(function(){
+  $(window).on('load resize',function(){
+    var elem = $(this).width();
+    var result = (elem / 2) - 11;
+    console.log(result);
+    $(".clock").css("left", "+="+result);
+  });
+});
 </script>
 
 </body>
