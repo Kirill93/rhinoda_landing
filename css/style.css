@@ -797,8 +797,8 @@ div.section-text--display .dev {font-size: 40px;}
     width: 66px;
     height: 66px;
     position: absolute;
-    bottom: 29%;
-    right: 46%;
+    bottom: 30%;
+    right: 46.6%;
     background-size: 55px;
 }
 
@@ -870,7 +870,7 @@ div.section-text--display .dev {font-size: 40px;}
     .block-take {margin: -6% 0 0 30%;}
     div.section-text--display {margin-left: 35px;}
     .back {margin-top: 6%;}
-    .clock {bottom: 29%; right: 41%;}
+    .clock {bottom: 29.3%; right: 44.6%;}
 }
 
 @media screen and (min-width: 1280px) {
@@ -883,7 +883,7 @@ div.section-text--display .dev {font-size: 40px;}
     .our-text {margin: -9% 0 0 17%;}
     .block-take {margin: -6% 0 0 30%;}
     .back {margin-top: 6%;}
-    .clock {bottom: 29.5%; right: 45.7%;}
+    .clock {bottom: 29.7%; right: 45.6%;}
 }
 
 @media screen and (max-width: 1366px) {
@@ -896,7 +896,7 @@ div.section-text--display .dev {font-size: 40px;}
     .our-text {margin: -9% 0 0 17%;}
     .block-take {margin: -6% 0 0 50%;}
     .back {margin-top: 6%;}
-    .clock {bottom: 29.5%; right: 46%;}
+    .clock {bottom: 29.7%; right: 45.9%;}
 }
 
 @media screen and (min-width: 1440px) {
@@ -909,6 +909,7 @@ div.section-text--display .dev {font-size: 40px;}
     .our-text {margin: -9% 0 0 17%;}
     .block-take {margin: -6% 0 0 30%;}
     .back {margin-top: 6%;}
+    .clock {bottom: 31.7%; right: 45.9%;}
 }
 
 @media screen and (min-width: 1600px) {
@@ -917,12 +918,13 @@ div.section-text--display .dev {font-size: 40px;}
     .speed-text {margin-top: 20%;}
     .just-text {margin-top: 20%;}
     .block-power {margin-top: 16%;}
-    .right-lamp {right: 135px;}
+    .right-lamp {right: 164px;}
     .our-text {margin: -9% 0 0 25%;}
     .block-take {margin: -6% 0 0 50%;}
     .back {margin-top: 6%;}
     .block-professional {margin: -3% 0 0 24%;}
     .focus-text {margin: -8% 0 0 22%;}
+    .clock {bottom: 32.5%; right: 46.4%;}
 }
 
 @media screen and (min-width: 1920px) {
