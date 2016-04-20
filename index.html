@@ -205,7 +205,7 @@ By dropping a pin on a map of the world, or setting your preference to a specifi
 <div class="horizon-next"><img src="img/arrows-right.png"></div>
 
 <script>
-$('section').horizon({scrollDuration: 1500});
+$('section').horizon({scrollDuration: 500});
 $('.back-end').on('click', function () {
     $(document).horizon('scrollTo', 12);
 });
@@ -227,15 +227,7 @@ $('.bxslider').bxSlider({
     nextText: '',
     prevText: ''
 });
-$(document).ready(function(){
-  $(window).on('load resize',function(){
-    var elem = $(this).height();
-    var result = (elem / 2);
-    console.log(result);
-    $(".making-text").css("top", "+="+result);
-    $(".talented-text").css("top", "+="+result);
-  });
-});
+
 </script>
 
 </body>
