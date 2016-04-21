@@ -902,6 +902,8 @@ div.section-text--display .dev {font-size: 40px;}
     border-radius: 100%;
 }
 
+.making-text a {text-decoration: none;}
+
 @keyframes rotate {
   100% {
     transform: rotateZ(360deg);
@@ -920,6 +922,8 @@ div.section-text--display .dev {font-size: 40px;}
     div.section-text--display {margin-left: 35px;}
     .back {margin-top: 6%;}
     .clock {bottom: 29.3%;}
+    .wrap-power-text {margin-left: 125px;}
+    .block-power--margin {max-width: 100%;}
 }
 
 @media screen and (min-width: 1280px) {
